@@ -10,11 +10,19 @@ class PalindromeTest {
 
 	@Test
 	void testLoadWords() {
-		assertTrue(testPalindrome.loadWords().contains("apple"));
+		assertTrue(testPalindrome.loadWords().contains("peer"));
 	}
-	
-	// 2. Test that a word exists in the dictionary 
-	
-	// 3. Test that a word is a palindrome
+
+	@Test
+	void wordExist() throws Exception {
+		assertTrue(testPalindrome.wordExist("juice"));
+	}
+
+	@Test
+	void wordIsAPalindrome() throws Exception {
+		assertTrue(testPalindrome.wordIsAPalindrome("Ana"));
+		assertFalse(testPalindrome.wordIsAPalindrome("Marina"));
+	}
+
 
 }
