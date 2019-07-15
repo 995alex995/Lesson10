@@ -19,12 +19,12 @@ public class Palindrome {
 		return FileHelper.loadFileContentsIntoArrayList("resource/words.txt");
 	}
 
-	public boolean wordExist(String string) {
+	public boolean wordExist(String wrd) {
 
-		return words.contains(string);
+		return words.contains(wrd);
 	}
 
-	public boolean wordIsAPalindrome(String string) {
-		return wordExist(string) && wordExist(new StringBuilder(string).reverse().toString());
+	public boolean IsAPalindrome(String IAP) {
+		return wordExist(IAP) && wordExist(new StringBuilder(IAP).reverse().toString());
 	}
 }

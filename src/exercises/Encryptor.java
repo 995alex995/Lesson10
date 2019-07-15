@@ -12,7 +12,7 @@ public class Encryptor {
 		}
 		return builder.toString();
 	}
-	public static String decrypt(String decryptMe) {
+	public static String Decrypt(String decryptMe) {
 	StringBuilder builder = new StringBuilder();
 	for (int i = 0; i < decryptMe.length(); i++) {
 		int numericalValue = decryptMe.charAt(i);

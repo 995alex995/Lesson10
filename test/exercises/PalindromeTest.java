@@ -19,8 +19,8 @@ class PalindromeTest {
 
 	@Test
 	void wordIsAPalindrome() throws Exception {
-		assertTrue(testPalindrome.wordIsAPalindrome("Ana"));
-		assertFalse(testPalindrome.wordIsAPalindrome("Marina"));
+		assertTrue(testPalindrome.IsAPalindrome("Ana"));
+		assertFalse(testPalindrome.IsAPalindrome("Marina"));
 	}
 
 
