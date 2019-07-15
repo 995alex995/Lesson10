@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 class ValidationTest {
 
+	
 	@Test
 	void testEmailValidation() throws Exception {
 		Validation testRegex = new Validation();

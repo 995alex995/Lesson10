@@ -32,7 +32,6 @@ public class Hangman extends KeyAdapter {
 		Hangman hangman = new Hangman();
 		hangman.addPuzzles();
 		hangman.createUI();
-
 	}
 
 	private void addPuzzles() {

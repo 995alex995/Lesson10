@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 class EncryptorTest {
 
+	
 	@Test
 	void testEncryptOneCharacter() {
 		assertEquals("c", Encryptor.encrypt("a"));
